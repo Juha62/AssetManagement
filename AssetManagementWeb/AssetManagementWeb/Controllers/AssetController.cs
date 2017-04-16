@@ -39,10 +39,10 @@ namespace AssetManagementWeb.Controllers
             return View();
         }
         [HttpPost]
-        public JsonResult AssingLocation()
+        public JsonResult AssignLocation()
         {
             string json = Request.InputStream.ReadToEnd();
-            AssingLocationModel inputData = JsonConvert.DeserializeObject<AssingLocationModel>(json);
+            AssignLocationModel inputData = JsonConvert.DeserializeObject<AssignLocationModel>(json);
 
             bool success = false;
             string error = "";

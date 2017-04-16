@@ -5,7 +5,7 @@ using System.Web;
 
 namespace AssetManagementWeb.Models
 {
-    public class AssingLocationModel
+    public class AssignLocationModel
     {
         public string AssetCode { get; set; }
         public string LocationCode { get; set; }
